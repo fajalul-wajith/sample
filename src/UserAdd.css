@@ -1,0 +1,78 @@
+table ,thead, tr ,td{
+    border:1px solid;
+    border-collapse: collapse;
+}
+
+.tableContainer{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+.table{
+    width: 80%;
+    margin: auto;
+}
+.table thead{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.table th,
+.table td{ 
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.table tr:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+.table thead :hover{
+    background-color: black;
+}
+
+/* Input style */
+
+.inputContainer{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+.inputHead{
+    width: 25%;
+}
+input{
+    width:70%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+}
+.inputHead button{
+    padding: 8px;
+    width: 60px;
+    margin-left: 10px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.inputHead button:hover{
+    background-color: #45a049;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color:#ab9860;
+    padding: 10px;
+}

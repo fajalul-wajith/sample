@@ -1,0 +1,47 @@
+.getContainer{
+  width: 80%;
+  margin: auto;
+}
+.getChild{
+    width:75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding:10px;
+    gap: 20px;
+}
+.dataSet{
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+.dataSet:hover{
+    background-color:  bisque;
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.dataSet:hover h3{
+    color: #726b7d;
+    font-size: 20px;
+    font-weight: 600;
+}
+.dataSet:hover span{
+    font-size: 22px;
+    font-weight: 900;
+}
+.title{
+    color: #9978c4;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.getChild h3{
+    color:#afa9b8;
+    font-weight: 400;
+}
+h1{
+    text-align: center;
+    color: #91bdcc;
+    margin:20px;
+}

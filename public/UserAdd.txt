@@ -1,0 +1,21 @@
+get Api and thenn add the post req
+
+    // const getUserData = async () => {
+    //     try {
+    //         const output = await axios.get('https://jsonplaceholder.typicode.com/posts')
+    //         console.log(output);
+    //         return output.data.slice(0, 6)
+
+    //     }
+    //     catch (err) {
+    //         console.log("Error");
+    //     }
+    // }
+
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         const res = await getUserData()
+    //         setData(res)
+    //     }
+    //     fetchData()
+    // }, [])
